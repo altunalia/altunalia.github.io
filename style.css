@@ -12,7 +12,22 @@ header {
     text-align: center;
 }
 
-section {
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -27,4 +42,11 @@ h1, h2 {
 
 p {
     line-height: 1.6;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
 }
