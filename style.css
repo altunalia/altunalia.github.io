@@ -45,10 +45,10 @@ p {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px; 
+    width: 400px;
+    height: 500px; 
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     display: block;
     margin: 10px auto;
 }
